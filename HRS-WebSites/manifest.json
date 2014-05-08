@@ -1,0 +1,16 @@
+{
+    "name": "HRS Sites",
+    "description": "MY all web sites and web apps.",
+    "app": {
+        "urls": ["http://hrshadhin.me/"],
+        "launch": {
+            "web_url": "http://hrshadhin.me/"
+        }
+    },
+    "manifest_version": 2,
+    "update_url": "http://hrshadhin.me/chromeapp/crx",
+    "version": "0.1",
+    "icons": {
+        "128": "icon.png"
+    }
+}

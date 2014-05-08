@@ -1,0 +1,16 @@
+{
+    "name": "G-Trans",
+    "description": "Google translate.........",
+    "app": {
+        "urls": ["https://translate.google.com/#auto/bn/"],
+        "launch": {
+            "web_url": "https://translate.google.com/#auto/bn/"
+        }
+    },
+    "manifest_version": 2,
+    "update_url": "https://translate.google.com/",
+    "version": "0.1",
+    "icons": {
+        "128": "logo.png"
+    }
+}

@@ -1,0 +1,20 @@
+{
+"manifest_version": 2,
+"name": "Fuck CrazyHD",
+"description": "This extension will remove the ratio alert box and also modify the link to open in new tab.",
+"version": "1.0",
+"content_scripts": [
+{ "run_at" :"document_end",
+"matches": ["https://www.crazyhd.com/*"],
+"js": ["jquery-1.12.4.min.js","fuck.js"],
+} ],
+"web_accessible_resources":["img/*.png"],
+"icons": 
+    { 
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png" 
+    }
+}
+
+
